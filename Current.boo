@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<root version="7" DefaultSaveDir="" DefaultSaveExtension="png">
+<root version="7" DefaultSaveDir="c:\local\boofile\image\" DefaultSaveExtension="png">
 	<item content="Category" icon="none" branch="none" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:29" IsFile="false"/>
 	<item content="Memo" icon="none" branch="none" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:13:35" IsFile="false"/>
 	<item content="Inbox" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false">
@@ -10,6 +10,10 @@
 				<item content="Connect to github" icon="none" branch="close" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
 					<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
 					<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
+				</item>
+				<item content="Link image" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
+					<item content=".\image\20150630_100434_0346.png" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:04:34" IsImage="true" IsFile="true"/>
+					<item content=".\image\work_item_relationship.png" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:05:49" IsImage="true" IsFile="true"/>
 				</item>
 			</item>
 		</item>
