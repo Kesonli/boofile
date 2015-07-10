@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <root version="7" DefaultSaveDir="c:\local\boofile\image\" DefaultSaveExtension="png">
 	<item content="Category" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:29" IsFile="false">
-		<item content="Display Board" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:40:22" IsFile="false">
-			<item content="Tech" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:41:42" IsFile="false">
+		<item content="Display Board" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:40:22" IsFile="false">
+			<item content="Tech" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:41:42" IsFile="false">
 				<item content="AM335X chip architect" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:37:30" IsFile="false">
 					<item content="boot" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:38:49" IsFile="false">
 						<item content=".\image\20150701_105250_0614.png" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:52:50" IsImage="true" IsFile="true"/>
@@ -47,18 +47,44 @@
 				</item>
 			</item>
 		</item>
-		<item content="CTK" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:39:09" IsFile="false">
-			<item content="elements" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:20:34" IsFile="false">
-				<item content="event timer" icon="tick" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:22:40" IsFile="false">
+	</item>
+	<item content="Memo" icon="none" branch="close" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:13:35" IsFile="false">
+		<item content="Backup win7 to N93X [06/30/15 10:19]" icon="none" branch="close" block="narrow" level="1" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:19:33" IsFile="false">
+			<item content="tmp/mybk" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:18:24" IsFile="false"/>
+		</item>
+		<item content="Relation repo and emerge" icon="none" branch="close" block="narrow" level="1" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:20:55" IsFile="false">
+			<item content="manage all code &amp; script" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:21:51" IsFile="false"/>
+			<item content="ebuild compile &amp; install" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:22:20" IsFile="false"/>
+		</item>
+		<item content="app for Hospital " icon="flag" branch="none" block="narrow" level="1" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 07:53:24" IsFile="false"/>
+		<item content="Create Github for record everyday " icon="none" branch="close" block="narrow" level="1" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:18" IsFile="false">
+			<item content="my set date [06/30/15 09:23]" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:54" IsFile="false"/>
+			<item content="Kesonli/boofile ver 11.22" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:25:00" IsFile="false"/>
+			<item content="Action" icon="idea" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:07" IsFile="false">
+				<item content="Connect to github" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
+					<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
+					<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
+				</item>
+				<item content="Link image" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
+					<item content=".\image\20150630_100434_0346.png" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:04:34" IsImage="true" IsFile="true"/>
+					<item content=".\image\work_item_relationship.png" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:05:49" IsImage="true" IsFile="true"/>
+				</item>
+			</item>
+		</item>
+	</item>
+	<item content="Inbox" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false">
+		<item content="CTK" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:39:09" IsFile="false">
+			<item content="elements" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:20:34" IsFile="false">
+				<item content="event timer" icon="tick" branch="close" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:22:40" IsFile="false">
 					<item content="struct etimer" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:27:44" IsFile="false"/>
 					<item content="fxn etimer_set( et, interval )" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:29:34" IsFile="false"/>
 					<item content="fxn etimer_expired( et )" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:29:37" IsFile="false"/>
 				</item>
-				<item content="callback timer" icon="tick" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:22:47" IsFile="false"/>
-				<item content="rtimer" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:09:55" IsFile="false"/>
-				<item content="stimer" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:10:02" IsFile="false"/>
-				<item content="process" icon="tick" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:12:53" IsFile="false">
-					<item content="artifact" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 08:36:46" IsFile="false">
+				<item content="callback timer" icon="tick" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-08 10:22:47" IsFile="false"/>
+				<item content="rtimer" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:09:55" IsFile="false"/>
+				<item content="stimer" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:10:02" IsFile="false"/>
+				<item content="process" icon="tick" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 10:12:53" IsFile="false">
+					<item content="artifact" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 08:36:46" IsFile="false">
 						<item content="process.h" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 10:57:50" IsFile="false">
 							<item content="cc.h" icon="none" branch="close" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 09:07:40" IsFile="false">
 								<item content="compiler config file" icon="none" branch="none" block="narrow" level="7" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 09:11:08" IsFile="false"/>
@@ -92,30 +118,6 @@
 				</item>
 			</item>
 		</item>
-	</item>
-	<item content="Memo" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:13:35" IsFile="false">
-		<item content="Backup win7 to N93X [06/30/15 10:19]" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:19:33" IsFile="false">
-			<item content="tmp/mybk" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:18:24" IsFile="false"/>
-		</item>
-		<item content="Relation repo and emerge" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:20:55" IsFile="false">
-			<item content="manage all code &amp; script" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:21:51" IsFile="false"/>
-			<item content="ebuild compile &amp; install" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:22:20" IsFile="false"/>
-		</item>
-		<item content="app for Hospital " icon="flag" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 07:53:24" IsFile="false"/>
-		<item content="Create Github for record everyday " icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:18" IsFile="false">
-			<item content="my set date [06/30/15 09:23]" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:54" IsFile="false"/>
-			<item content="Kesonli/boofile ver 11.22" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:25:00" IsFile="false"/>
-			<item content="Action" icon="idea" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:07" IsFile="false">
-				<item content="Connect to github" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
-					<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
-					<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
-				</item>
-				<item content="Link image" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
-					<item content=".\image\20150630_100434_0346.png" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:04:34" IsImage="true" IsFile="true"/>
-					<item content=".\image\work_item_relationship.png" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:05:49" IsImage="true" IsFile="true"/>
-				</item>
-			</item>
-		</item>
 		<item content="GIT manual" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:45:49" IsFile="false">
 			<item content="git init" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:46:22" IsFile="false"/>
 			<item content="git add *" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:47:37" IsFile="false"/>
@@ -132,20 +134,19 @@
 				<item content="合并fea_x到master" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:56:10" IsFile="false"/>
 			</item>
 		</item>
-		<item content="N93X" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:28:30" IsFile="false">
-			<item content="225" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:28:47" IsFile="false"/>
+		<item content="N93X" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:28:30" IsFile="false">
+			<item content="225" icon="none" branch="none" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:28:47" IsFile="false"/>
 		</item>
-		<item content="vagrant" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:30" IsFile="false">
-			<item content="vbox list" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:05:37" IsFile="false">
-				<item content="centos65" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:52" IsFile="false"/>
-				<item content="lookone" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:51" IsFile="false"/>
-				<item content="os1505" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:08:43" IsFile="false"/>
-				<item content="ub1404" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:05" IsFile="false">
-					<item content="add gcc 4.7 to /opt" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 15:00:31" IsFile="false"/>
+		<item content="vagrant" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:30" IsFile="false">
+			<item content="vbox list" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:05:37" IsFile="false">
+				<item content="centos65" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:52" IsFile="false"/>
+				<item content="lookone" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:51" IsFile="false"/>
+				<item content="os1505" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:08:43" IsFile="false"/>
+				<item content="ub1404" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:05" IsFile="false">
+					<item content="add gcc 4.7 to /opt" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 15:00:31" IsFile="false"/>
 				</item>
-				<item content="zenServer" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:10" IsFile="false"/>
+				<item content="zenServer" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:10" IsFile="false"/>
 			</item>
 		</item>
 	</item>
-	<item content="Inbox" icon="none" branch="none" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false"/>
 </root>
