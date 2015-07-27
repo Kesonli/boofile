@@ -189,19 +189,45 @@
 			<item content="system root" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 09:05:22" IsFile="false"/>
 			<item content="app package" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 09:06:06" IsFile="false"/>
 		</item>
-		<item content="boot GP" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:42:19" IsFile="false">
-			<item content="UART0 115200 8bit 1stop" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:36:09" IsFile="false">
-				<item content="0x402F-0400" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-24 16:21:47" IsFile="false"/>
-				<item content="x-modem receive image" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:40:14" IsFile="false"/>
-				<item content="ping 10 times in 3s" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:40:29" IsFile="false"/>
-				<item content="CRC-16" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:41:20" IsFile="false"/>
-				<item content="MLO offset   ox200" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-24 16:40:24" IsFile="false"/>
+		<item content="HDP mid year update [07/21/15]" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-21 16:24:46" IsFile="false"/>
+		<item content="Badminton Bill    [07/20/15 ]" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-21 16:19:50" IsFile="false">
+			<item content="1200" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-21 16:19:37" IsFile="false"/>
+		</item>
+		<item content="McKinsey" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 09:49:43" IsFile="false">
+			<item content="Report" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 09:50:01" IsFile="false">
+				<item content="Struct Clean " icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:29:28" IsFile="false">
+					<item content="逻辑推理，主次分明" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:39:39" IsFile="false"/>
+					<item content="简明扼要" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:43:50" IsFile="false"/>
+					<item content="system" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 09:51:50" IsFile="false">
+						<item content="viewpoint prospect" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:29:23" IsFile="false"/>
+						<item content="inital assumption" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:19:33" IsFile="false"/>
+						<item content="analyze prove" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:31:26" IsFile="false"/>
+						<item content="enable implement" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:32:18" IsFile="false"/>
+					</item>
+					<item content=" lift rule" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:03:33" IsFile="false"/>
+					<item content="simple" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 09:52:21" IsFile="false"/>
+				</item>
+				<item content="Accept" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:54:13" IsFile="false">
+					<item content="实现沟通 prewiring" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:58:45" IsFile="false"/>
+					<item content="量体裁衣" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-22 10:57:41" IsFile="false"/>
+				</item>
 			</item>
-			<item content="Image Format " icon="none" branch="none" block="shrink" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:42:45" IsFile="false"/>
-			<item content="EVM Board Sysboot " icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:53:17" IsFile="false">
+		</item>
+		<item content="EPM Overview (leaning HUB)  [07/22/15]" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 16:17:33" IsFile="false"/>
+		<item content="PTC ASDP [238575]" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 16:54:24" IsFile="false"/>
+		<item content="boot GP" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:42:19" IsFile="false">
+			<item content="UART0 115200 8bit 1stop" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:36:09" IsFile="false">
+				<item content="0x402F-0400" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-24 16:21:47" IsFile="false"/>
+				<item content="x-modem receive image" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:40:14" IsFile="false"/>
+				<item content="ping 10 times in 3s" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:40:29" IsFile="false"/>
+				<item content="CRC-16" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:41:20" IsFile="false"/>
+				<item content="MLO offset   ox200" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-24 16:40:24" IsFile="false"/>
+			</item>
+			<item content="Image Format " icon="none" branch="none" block="shrink" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:42:45" IsFile="false"/>
+			<item content="EVM Board Sysboot " icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 17:53:17" IsFile="false">
 				<item content=".\image\20150724_091836_0259.png" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-24 09:18:36" IsImage="true" IsFile="true"/>
 			</item>
-			<item content="DataFlash on SPI0" icon="warning" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 18:17:48" IsFile="false"/>
+			<item content="DataFlash on SPI0" icon="warning" branch="none" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-23 18:17:48" IsFile="false"/>
 		</item>
 	</item>
 </root>
