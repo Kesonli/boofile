@@ -2,16 +2,16 @@
 <root version="7" DefaultSaveDir="c:\boo\image\" DefaultSaveExtension="png">
 	<item content="Category" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:29" IsFile="false">
 		<item content="Display Board" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:40:22" IsFile="false">
-			<item content="Tech" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:41:42" IsFile="false">
-				<item content="AM335X chip architect" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:37:30" IsFile="false">
-					<item content="boot" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:38:49" IsFile="false">
+			<item content="Tech" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-06 07:41:42" IsFile="false">
+				<item content="AM335X chip architect" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:37:30" IsFile="false">
+					<item content="boot" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:38:49" IsFile="false">
 						<item content=".\image\20150701_105250_0614.png" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:52:50" IsImage="true" IsFile="true"/>
 					</item>
-					<item content="PMU" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 11:02:41" IsFile="false">
+					<item content="PMU" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 11:02:41" IsFile="false">
 						<item content="Chip TPS65910A3" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 11:03:21" IsFile="false"/>
 						<item content="I2C interface" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 11:03:40" IsFile="false"/>
 					</item>
-					<item content="clock &amp; reset &amp; power" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-02 13:16:44" IsFile="false">
+					<item content="clock &amp; reset &amp; power" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-02 13:16:44" IsFile="false">
 						<item content="low 32KHz OSC1" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:36:05" IsFile="false"/>
 						<item content="High 24MHz OSC0" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-02 10:08:06" IsFile="false"/>
 						<item content="ADPLLS" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:36:43" IsFile="false">
@@ -21,24 +21,24 @@
 						</item>
 						<item content="ADPLLJ" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:36:35" IsFile="false"/>
 					</item>
-					<item content="DDR3" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:42:20" IsFile="false">
+					<item content="DDR3" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:42:20" IsFile="false">
 						<item content="0x80000000" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:04:48" IsFile="false"/>
 						<item content="512 MB" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-03 09:05:02" IsFile="false"/>
 						<item content="L3/L4 200/100 MHz" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:45:56" IsFile="false"/>
 						<item content="303 MHz" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:42:15" IsFile="false"/>
 						<item content="size 512MB" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:54:10" IsFile="false"/>
 					</item>
-					<item content="Nandflash" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:47:28" IsFile="false">
+					<item content="Nandflash" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:47:28" IsFile="false">
 						<item content="256 MB" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:56:34" IsFile="false"/>
 						<item content="8 bit" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:58:44" IsFile="false"/>
 						<item content="chip K9F2G08" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:58:25" IsFile="false"/>
 					</item>
-					<item content="ticker" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:40:18" IsFile="false"/>
-					<item content="IRQ" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:10:23" IsFile="false"/>
-					<item content="DMA" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:27:15" IsFile="false"/>
-					<item content="uart" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:43:30" IsFile="false"/>
-					<item content="can" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:43:40" IsFile="false"/>
-					<item content="memory map" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:09:16" IsFile="false">
+					<item content="ticker" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:40:18" IsFile="false"/>
+					<item content="IRQ" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:10:23" IsFile="false"/>
+					<item content="DMA" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:27:15" IsFile="false"/>
+					<item content="uart" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:43:30" IsFile="false"/>
+					<item content="can" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 08:43:40" IsFile="false"/>
+					<item content="memory map" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:09:16" IsFile="false">
 						<item content="64KB Dedicated RAM " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:09:56" IsFile="false"/>
 						<item content="64KB On-chip RAM - L3" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-01 10:14:47" IsFile="false">
 							<item content="0x402F0400 - 0x4030FFFF" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-02 13:20:06" IsFile="false"/>
@@ -239,6 +239,8 @@
 			</item>
 		</item>
 		<item content="HON0421" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-27 13:00:55" IsFile="false"/>
+	</item>
+	<item content="Inbox" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false">
 		<item content="linux-ti" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 09:37:29" IsFile="false">
 			<item content="wiki" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 09:37:35" IsFile="false">
 				<item content="http://processors.wiki.ti.com/index.php/Linux_Kernel_Users_Guide" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 09:38:03" IsFile="false"/>
@@ -246,6 +248,6 @@
 			<item content="rev b9df36" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 09:52:20" IsFile="false"/>
 			<item content="dpkg -i libncurses5-dev_5.9-10_i386.deb&#xA;For make menuconfig" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-20 11:28:03" IsFile="false"/>
 		</item>
+		<item content="Week Todo" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-27 10:34:00" IsFile="false"/>
 	</item>
-	<item content="Inbox" icon="none" branch="none" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false"/>
 </root>
