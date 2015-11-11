@@ -333,20 +333,20 @@
 			<item content="" icon="none" branch="none" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" IsFile="false"/>
 		</item>
 		<item content="Mics" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-08 11:07:29" IsFile="false">
-			<item content="GIT manual" icon="flag" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:45:49" IsFile="false">
-				<item content="git init" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:46:22" IsFile="false"/>
-				<item content="git add *" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:47:37" IsFile="false"/>
-				<item content="git checkout -b fea_x " icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:00" IsFile="false">
-					<item content="创建分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:30" IsFile="false"/>
+			<item content="GIT manual" icon="flag" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:45:49" IsFile="false">
+				<item content="git init" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:46:22" IsFile="false"/>
+				<item content="git add *" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:47:37" IsFile="false"/>
+				<item content="git checkout -b fea_x " icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:00" IsFile="false">
+					<item content="创建分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:30" IsFile="false"/>
 				</item>
-				<item content="git checkout master" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:03" IsFile="false">
-					<item content="切回主分支" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:19" IsFile="false"/>
+				<item content="git checkout master" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:03" IsFile="false">
+					<item content="切回主分支" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:19" IsFile="false"/>
 				</item>
-				<item content="git branch -d fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:17" IsFile="false">
-					<item content="删掉分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:34" IsFile="false"/>
+				<item content="git branch -d fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:17" IsFile="false">
+					<item content="删掉分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:34" IsFile="false"/>
 				</item>
-				<item content="git merge fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:55:13" IsFile="false">
-					<item content="合并fea_x到master" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:56:10" IsFile="false"/>
+				<item content="git merge fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:55:13" IsFile="false">
+					<item content="合并fea_x到master" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:56:10" IsFile="false"/>
 				</item>
 			</item>
 			<item content="Backup win7 to N93X [06/30/15 10:19]" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:19:33" IsFile="false">
@@ -357,15 +357,15 @@
 					<item content="包括入职手续、劳动合同和劳动关系、人事证明文件，工会会籍等，并作为与工资发放部门、社保公积金和福利部门接洽的桥梁。&#xA;" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-08-13 11:23:36" IsFile="false"/>
 				</item>
 			</item>
-			<item content="Create Github for record everyday " icon="warning" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:18" IsFile="false">
-				<item content="my set date [06/30/15 09:23]" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:54" IsFile="false"/>
-				<item content="Kesonli/boofile ver 11.22" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:25:00" IsFile="false"/>
-				<item content="Action" icon="idea" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:07" IsFile="false">
-					<item content="Connect to github" icon="none" branch="open" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
-						<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="5" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
-						<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="5" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
+			<item content="Create Github for record everyday " icon="warning" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:18" IsFile="false">
+				<item content="my set date [06/30/15 09:23]" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:54" IsFile="false"/>
+				<item content="Kesonli/boofile ver 11.22" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:25:00" IsFile="false"/>
+				<item content="Action" icon="idea" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:07" IsFile="false">
+					<item content="Connect to github" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
+						<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
+						<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
 					</item>
-					<item content="Link image" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
+					<item content="Link image" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
 						<item content=".\image\20150630_100434_0346.png" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:04:34" IsImage="true" IsFile="true"/>
 						<item content=".\image\work_item_relationship.png" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:05:49" IsImage="true" IsFile="true"/>
 					</item>
