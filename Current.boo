@@ -290,20 +290,104 @@
 			<item content="查看文件循环" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-08-04 10:51:05" IsFile="false">
 				<item content="ctl+^" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-08-04 10:51:17" IsFile="false"/>
 			</item>
+			<item content="改变C类型字体颜色" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 15:14:26" IsFile="false">
+				<item content="hi Type ctermfg = blue" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 15:13:53" IsFile="false"/>
+			</item>
+		</item>
+		<item content="Core" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 09:22:45" IsFile="false">
+			<item content="corebuild" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-11 15:21:30" IsFile="false">
+				<item content="CAUTION" icon="warning" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 15:38:34" IsFile="false">
+					<item content="Need 64-bit environment" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 15:39:23" IsFile="false">
+						<item content="define cros_sdk.py and make_chroot.sh on x86_64" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-24 10:39:24" IsFile="false"/>
+					</item>
+					<item content="Don&apos;t download stage3" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-24 10:51:08" IsFile="false">
+						<item content="cros_sdk --url=file:/home/filename" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-24 13:13:35" IsFile="false"/>
+					</item>
+					<item content="work on /home/amd64 " icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-24 13:14:16" IsFile="false"/>
+				</item>
+				<item content="repo init -u https://github.com/coreos/manifest.git" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:03:53" IsFile="false"/>
+				<item content="chromite/bin/cros_sdk" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:04:14" IsFile="false">
+					<item content="get stage Tarball" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 17:48:14" IsFile="false"/>
+					<item content="src/scripts/sdk_lib/make_chroot.sh" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 17:47:06" IsFile="false"/>
+					<item content="src/scripts/sdk_lib/enter_chroot.sh" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 17:47:29" IsFile="false"/>
+				</item>
+				<item content="enter chroot" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:50:32" IsFile="false">
+					<item content="set_share_user_password.sh" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:09:39" IsFile="false"/>
+					<item content="setup_board --default --board=amd64-usr" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:13:15" IsFile="false"/>
+					<item content="build_packages" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:13:46" IsFile="false">
+						<item content="emerge" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:17:23" IsFile="false">
+							<item content="DISDIR" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:23:07" IsFile="false"/>
+							<item content="PKGDIR" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:23:16" IsFile="false"/>
+							<item content="PORTAGE_CONFIGROOT" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:24:04" IsFile="false"/>
+							<item content="PORTDIR" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:24:43" IsFile="false"/>
+						</item>
+						<item content="Portage Tree" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:27:54" IsFile="false">
+							<item content="third_party/coreos-overlay" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:35:22" IsFile="false"/>
+						</item>
+					</item>
+					<item content="build_image dev" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:14:00" IsFile="false"/>
+				</item>
+				<item content="Logic" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 15:32:39" IsFile="false">
+					<item content="build packages" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 16:03:10" IsFile="false"/>
+					<item content="build image" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 16:03:18" IsFile="false">
+						<item content="build_image_util.sh" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 11:16:29" IsFile="false">
+							<item content="start_image()" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 11:16:38" IsFile="false"/>
+						</item>
+					</item>
+					<item content="record" icon="idea" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 15:11:30" IsFile="false">
+						<item content="emerge_to_image  sys-apps/baselayout" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 15:12:25" IsFile="false"/>
+						<item content="emerge" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 15:25:14" IsFile="false">
+							<item content="portage contain define detail" icon="none" branch="open" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 15:29:31" IsFile="false">
+								<item content="ebuild file" icon="none" branch="open" block="narrow" level="7" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 15:32:17" IsFile="false">
+									<item content="emake" icon="none" branch="none" block="narrow" level="8" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 15:45:58" IsFile="false"/>
+								</item>
+							</item>
+						</item>
+					</item>
+					<item content="PATH" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 11:12:58" IsFile="false">
+						<item content="build_dir" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-17 11:13:05" IsFile="false"/>
+					</item>
+				</item>
+			</item>
+			<item content="Init" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 09:23:02" IsFile="false">
+				<item content="double boot" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 15:11:04" IsFile="false">
+					<item content="vbutil_kernel" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 10:45:08" IsFile="false"/>
+					<item content="GPT" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:30:21" IsFile="false">
+						<item content="Successful boot flag" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:30:37" IsFile="false">
+							<item content="1 bit" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:30:47" IsFile="false"/>
+						</item>
+						<item content="Tries remaining" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:31:01" IsFile="false">
+							<item content="4 bit" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:31:06" IsFile="false"/>
+							<item content="Numer of times to attempt booting .When S B flag is 0" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:32:32" IsFile="false"/>
+						</item>
+						<item content="Priority" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:32:41" IsFile="false">
+							<item content="4 bit" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:32:51" IsFile="false"/>
+							<item content="15 = highest 1 = lowest 0 = not bootable" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 14:33:18" IsFile="false"/>
+						</item>
+					</item>
+					<item content="ref" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 10:44:48" IsFile="false">
+						<item content="http://www.chromium.org/chromium-os/chromiumos-design-docs/disk-format" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 10:26:24" IsFile="false"/>
+						<item content="https://coreos.com/os/docs/latest/sdk-modifying-coreos.html" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-25 09:53:14" IsFile="false"/>
+						<item content="Disk layout" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-25 10:00:30" IsFile="false">
+							<item content="https://coreos.com/os/docs/latest/sdk-disk-partitions.html" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-25 10:00:33" IsFile="false"/>
+						</item>
+					</item>
+				</item>
+			</item>
 		</item>
 	</item>
 	<item content="Memo" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:13:35" IsFile="false">
-		<item content="N93X" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:28:30" IsFile="false">
-			<item content="vagrant" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:30" IsFile="false">
+		<item content="N93X" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:28:30" IsFile="false">
+			<item content="vagrant" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:30" IsFile="false">
 				<item content="vbox list" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 10:05:37" IsFile="false">
 					<item content="centos65" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:07:52" IsFile="false"/>
 					<item content="lookone" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:51" IsFile="false"/>
 					<item content="os1505" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:08:43" IsFile="false"/>
 					<item content="ub1404" icon="flag" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 09:09:05" IsFile="false">
-						<item content="Action" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:07:18" IsFile="false">
+						<item content="Action" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:07:18" IsFile="false">
 							<item content="add gcc 4.7 to /opt" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-10 15:00:31" IsFile="false"/>
 						</item>
-						<item content="context" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:06:49" IsFile="false">
+						<item content="context" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:06:49" IsFile="false">
 							<item content="Am3358 EVM board Development ENV" icon="none" branch="open" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:13:39" IsFile="false">
 								<item content="u-boot test" icon="none" branch="open" block="narrow" level="7" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:13:46" IsFile="false">
 									<item content="boot form serial" icon="none" branch="none" block="narrow" level="8" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:14:49" IsFile="false"/>
@@ -327,60 +411,54 @@
 					</item>
 				</item>
 			</item>
-			<item content="IP" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:11:58" IsFile="false">
+			<item content="IP" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 09:11:58" IsFile="false">
 				<item content="192 225" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-28 16:50:38" IsFile="false"/>
 			</item>
-			<item content="" icon="none" branch="none" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" IsFile="false"/>
 		</item>
-		<item content="Mics" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-08 11:07:29" IsFile="false">
-			<item content="GIT manual" icon="flag" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:45:49" IsFile="false">
-				<item content="git init" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:46:22" IsFile="false"/>
-				<item content="git add *" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:47:37" IsFile="false"/>
-				<item content="git checkout -b fea_x " icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:00" IsFile="false">
-					<item content="创建分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:30" IsFile="false"/>
+		<item content="Mics" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-08 11:07:29" IsFile="false">
+			<item content="GIT manual" icon="flag" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:45:49" IsFile="false">
+				<item content="git init" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:46:22" IsFile="false"/>
+				<item content="git add *" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:47:37" IsFile="false"/>
+				<item content="git checkout -b fea_x " icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:00" IsFile="false">
+					<item content="创建分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:50:30" IsFile="false"/>
 				</item>
-				<item content="git checkout master" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:03" IsFile="false">
-					<item content="切回主分支" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:19" IsFile="false"/>
+				<item content="git checkout master" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:03" IsFile="false">
+					<item content="切回主分支" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:51:19" IsFile="false"/>
 				</item>
-				<item content="git branch -d fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:17" IsFile="false">
-					<item content="删掉分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:34" IsFile="false"/>
+				<item content="git branch -d fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:17" IsFile="false">
+					<item content="删掉分支 fea_x" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:52:34" IsFile="false"/>
 				</item>
-				<item content="git merge fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:55:13" IsFile="false">
-					<item content="合并fea_x到master" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:56:10" IsFile="false"/>
+				<item content="git merge fea_x" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:55:13" IsFile="false">
+					<item content="合并fea_x到master" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-07 13:56:10" IsFile="false"/>
 				</item>
 			</item>
-			<item content="Backup win7 to N93X [06/30/15 10:19]" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:19:33" IsFile="false">
+			<item content="Backup win7 to N93X [06/30/15 10:19]" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:19:33" IsFile="false">
 				<item content="tmp/mybk" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:18:24" IsFile="false"/>
 			</item>
-			<item content="HON0421" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-07-27 13:00:55" IsFile="false">
-				<item content="Joanne.Jiao@honeywell.com" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-08-13 11:23:21" IsFile="false">
-					<item content="包括入职手续、劳动合同和劳动关系、人事证明文件，工会会籍等，并作为与工资发放部门、社保公积金和福利部门接洽的桥梁。&#xA;" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-08-13 11:23:36" IsFile="false"/>
-				</item>
-			</item>
-			<item content="Create Github for record everyday " icon="warning" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:18" IsFile="false">
-				<item content="my set date [06/30/15 09:23]" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:54" IsFile="false"/>
-				<item content="Kesonli/boofile ver 11.22" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:25:00" IsFile="false"/>
-				<item content="Action" icon="idea" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:07" IsFile="false">
-					<item content="Connect to github" icon="none" branch="open" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
-						<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="5" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
-						<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="5" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
+			<item content="Create Github for record everyday " icon="warning" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:18" IsFile="false">
+				<item content="my set date [06/30/15 09:23]" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:23:54" IsFile="false"/>
+				<item content="Kesonli/boofile ver 11.22" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:25:00" IsFile="false"/>
+				<item content="Action" icon="idea" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:07" IsFile="false">
+					<item content="Connect to github" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:44:54" IsFile="false">
+						<item content="git remote add origin https://github.com/Kesonli/boofile.git" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:22" IsFile="false"/>
+						<item content="git push -u origin master" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:46:56" IsFile="false"/>
 					</item>
-					<item content="Link image" icon="none" branch="close" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
+					<item content="Link image" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:02:33" IsFile="false">
 						<item content=".\image\20150630_100434_0346.png" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:04:34" IsImage="true" IsFile="true"/>
 						<item content=".\image\work_item_relationship.png" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 10:05:49" IsImage="true" IsFile="true"/>
 					</item>
 				</item>
 			</item>
-			<item content="Relation repo and emerge" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:20:55" IsFile="false">
+			<item content="Relation repo and emerge" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:20:55" IsFile="false">
 				<item content="manage all code &amp; script" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:21:51" IsFile="false"/>
 				<item content="ebuild compile &amp; install" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 16:22:20" IsFile="false"/>
 			</item>
 		</item>
-		<item content="Journal" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-08 11:09:35" IsFile="false">
-			<item content="October" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-09 09:44:18" IsFile="false">
-				<item content="pypy compile manual is failed                [10/09/15 09:00] " icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 08:59:42" IsFile="false"/>
-				<item content="staticPython manual compile ok 	      [10/12/15 15:00]" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 08:59:35" IsFile="false"/>
-				<item content="python standalone                  [10/28/15 15:00]" icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-28 15:20:35" IsFile="false"/>
+		<item content="Journal" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-08 11:09:35" IsFile="false">
+			<item content="October" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-09 09:44:18" IsFile="false">
+				<item content="pypy compile manual is failed                [10/09/15 09:00] " icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 08:59:42" IsFile="false"/>
+				<item content="staticPython manual compile ok 	      [10/12/15 15:00]" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 08:59:35" IsFile="false"/>
+				<item content="python standalone                  [10/28/15 15:00]" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-28 15:20:35" IsFile="false"/>
 			</item>
 		</item>
 		<item content="Python " icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-21 11:04:31" IsFile="false">
@@ -553,112 +631,7 @@
 				<item content="Manifest.xml config file for app" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-22 10:27:29" IsFile="false"/>
 			</item>
 		</item>
-	</item>
-	<item content="Inbox" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false">
-		<item content="corebuild" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-11 15:21:30" IsFile="false">
-			<item content="repo init -u https://github.com/coreos/manifest.git" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:03:53" IsFile="false"/>
-			<item content="chromite/bin/cros_sdk" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:04:14" IsFile="false">
-				<item content="get stage Tarball" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 17:48:14" IsFile="false"/>
-				<item content="src/scripts/sdk_lib/make_chroot.sh" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 17:47:06" IsFile="false"/>
-				<item content="src/scripts/sdk_lib/enter_chroot.sh" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 17:47:29" IsFile="false"/>
-			</item>
-			<item content="enter chroot" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:50:32" IsFile="false">
-				<item content="set_share_user_password.sh" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:09:39" IsFile="false"/>
-				<item content="setup_board --default --board=amd64-usr" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:13:15" IsFile="false"/>
-				<item content="build_packages" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:13:46" IsFile="false">
-					<item content="emerge" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:17:23" IsFile="false">
-						<item content="DISDIR" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:23:07" IsFile="false"/>
-						<item content="PKGDIR" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:23:16" IsFile="false"/>
-						<item content="PORTAGE_CONFIGROOT" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:24:04" IsFile="false"/>
-						<item content="PORTDIR" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:24:43" IsFile="false"/>
-					</item>
-					<item content="Portage Tree" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:27:54" IsFile="false">
-						<item content="third_party/coreos-overlay" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-15 10:35:22" IsFile="false"/>
-					</item>
-				</item>
-				<item content="build_image dev" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-14 15:14:00" IsFile="false"/>
-			</item>
-			<item content="金融危机与改革 &#xA;http://finance.sina.com.cn/stock/y/20150918/023023281491.shtml" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-18 09:18:35" IsFile="false"/>
-		</item>
-		<item content="Machine J32X" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:29:24" IsFile="false">
-			<item content="dell" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:29:49" IsFile="false">
-				<item content="192.168.1.221:123456" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:30:18" IsFile="false"/>
-			</item>
-			<item content="ubuntu 13.10" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:30:37" IsFile="false">
-				<item content="Serial Port" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:42:29" IsFile="false">
-					<item content="screen -S default_session -p 0 -X stuff &quot;your command goes here... $(printf \\r)" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-29 13:29:09" IsFile="false"/>
-					<item content="sudo screen /dev/ttyS0 115200,cs8,parenb,-parodd,-cstopb" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:58:06" IsFile="false"/>
-					<item content="set tty" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:47:11" IsFile="false">
-						<item content="stty  -a  " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="ffffff00" BkgrdColor="4f81bd00" ModifyTime="2015-10-16 15:47:39" IsFile="false"/>
-					</item>
-					<item content="read hex date" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:42:40" IsFile="false">
-						<item content="ln -s output  /dev/ttyS0  &#xA;xxd output   " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="ffffff00" BkgrdColor="4f81bd00" ModifyTime="2015-10-16 15:47:55" IsFile="false"/>
-					</item>
-				</item>
-			</item>
-		</item>
-		<item content="input Key responding slowly" icon="warning" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 09:01:18" IsFile="false">
-			<item content="Process running what time " icon="question" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 09:02:01" IsFile="false">
-				<item content="busybox top" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 13:55:50" IsFile="false"/>
-				<item content="ps H -e -o pid,tid,pcpu,cmd --sort=pcpu |grep xxx" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-14 15:12:14" IsFile="false"/>
-			</item>
-			<item content="Qt  time" icon="question" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 15:05:11" IsFile="false">
-				<item content="Qtime.start()  elapsed()" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 15:06:19" IsFile="false"/>
-			</item>
-		</item>
-		<item content="iptable Nat" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:11:15" IsFile="false">
-			<item content="eth0 is Nat dev" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:09:40" IsFile="false"/>
-			<item content="192.168.1.0/24 is private net " icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:10:59" IsFile="false"/>
-			<item content="iptables -P INPUT ACCEPT&#xA;iptables -P FORWARD ACCEPT&#xA;iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o eth0 -jMASQUERADE" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:15:39" IsFile="false"/>
-		</item>
-		<item content="zmq" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:30:31" IsFile="false">
-			<item content="install pyzmq on J32X" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:16:11" IsFile="false">
-				<item content="build on temp of folder" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:17:11" IsFile="false"/>
-				<item content="Ver 14.7" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:22:06" IsFile="false">
-					<item content="https://github.com/zeromq/pyzmq/tree/v14.7.0" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:22:09" IsFile="false"/>
-				</item>
-				<item content="Issue" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:22:58" IsFile="false">
-					<item content="Change libsodium that fetch url" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:24:14" IsFile="false"/>
-				</item>
-			</item>
-			<item content="ubuntu setting" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:30:58" IsFile="false">
-				<item content="" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" IsFile="false"/>
-				<item content="url" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:31:35" IsFile="false">
-					<item content="http://suntus.github.io/2014/10/02/ubuntu%E9%85%8D%E7%BD%AEzeromq/" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:31:24" IsFile="false"/>
-				</item>
-			</item>
-		</item>
-		<item content="Issue" icon="warning" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:31:48" IsFile="false">
-			<item content="ubifs_recover_master_node: failed to recover master node" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:32:00" IsFile="false">
-				<item content="rootfs on RAM" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:58:59" IsFile="false"/>
-				<item content="增加 root 权限" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:59:43" IsFile="false"/>
-				<item content="监控文件系统" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 11:01:02" IsFile="false"/>
-			</item>
-			<item content="Safety model" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-09 15:31:19" IsFile="false">
-				<item content="update target " icon="none" branch="none" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-09 15:31:47" IsFile="false"/>
-			</item>
-			<item content="ubifs Arch" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:13:44" IsFile="false">
-				<item content="Word" icon="none" branch="close" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:14:35" IsFile="false">
-					<item content="MTD" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:15:25" IsFile="false"/>
-					<item content="UBI subsystem" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:18:13" IsFile="false">
-						<item content="wear-leveling" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:18:52" IsFile="false"/>
-						<item content="volume management" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:20:05" IsFile="false"/>
-						<item content="bad block management" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:21:03" IsFile="false"/>
-					</item>
-					<item content="UBIFS" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:18:19" IsFile="false">
-						<item content="可扩展性" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:24:15" IsFile="false"/>
-						<item content="快速mount" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:24:32" IsFile="false"/>
-						<item content="write-back" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:24:50" IsFile="false"/>
-						<item content="可恢复性" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:25:54" IsFile="false">
-							<item content=" UBIFS中的每一片信息都用一个header来描述，因此可以通过扫描整个flash介质来重构文件系统 &#xA;http://blog.csdn.net/kickxxx/article/details/6583463" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:30:26" IsFile="false"/>
-						</item>
-						<item content="完整性 " icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:31:08" IsFile="false">
-							<item content="UBIFS通过把checksum写到flash 介质上来保证数据的完整性，UBIFS不会无视损坏的文件数据或meta-data；缺省的情况，UBIFS仅仅检查meta-data的CRC，但是你可以通过mount选项，强制进行data CRC的检查。 " icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:31:55" IsFile="false"/>
-						</item>
-					</item>
-				</item>
-			</item>
-		</item>
+		<item content="金融危机与改革 &#xA;http://finance.sina.com.cn/stock/y/20150918/023023281491.shtml" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-09-18 09:18:35" IsFile="false"/>
 	</item>
 	<item content="Todo" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-15 15:56:32" IsFile="false">
 		<item content="秋意" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-21 08:44:13" IsFile="false">
@@ -760,6 +733,300 @@
 				</item>
 			</item>
 			<item content="Gora to ARVO ORM" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-09 09:44:50" IsFile="false"/>
+		</item>
+		<item content="devNet" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-16 09:06:48" IsFile="false">
+			<item content="IO Fragmentation Managing" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:24:40" IsFile="false"/>
+			<item content="IO Message" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:21:45" IsFile="false">
+				<item content="Polled" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:21:56" IsFile="false"/>
+				<item content="Change of State" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:22:11" IsFile="false"/>
+				<item content="Cyclic" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:22:18" IsFile="false"/>
+				<item content="Bit Strobed" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:22:33" IsFile="false"/>
+				<item content="Multicast Polled" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 10:23:28" IsFile="false"/>
+			</item>
+			<item content="User Identity" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:05:46" IsFile="false">
+				<item content="VendorID" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:05:56" IsFile="false"/>
+				<item content="DeviceType" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:06:05" IsFile="false"/>
+				<item content="ProductCode" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:06:18" IsFile="false"/>
+				<item content="MajorRevision" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:06:32" IsFile="false"/>
+				<item content="MinorRevision" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:06:48" IsFile="false"/>
+				<item content="Status" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:06:57" IsFile="false"/>
+				<item content="Serial Number" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:07:20" IsFile="false"/>
+				<item content="ProductName" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 11:07:41" IsFile="false"/>
+			</item>
+			<item content="DNet" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 15:17:16" IsFile="false">
+				<item content="mac ID" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 15:17:28" IsFile="false"/>
+				<item content="Baud Rate" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 15:17:37" IsFile="false"/>
+				<item content="BOI" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-12 15:17:46" IsFile="false"/>
+				<item content="" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" IsFile="false"/>
+			</item>
+		</item>
+	</item>
+	<item content="Inbox" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-06-30 09:12:19" IsFile="false">
+		<item content="Machine ub14-disktop" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 09:56:04" IsFile="false">
+			<item content="virtalBox :Number" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 09:57:19" IsFile="false"/>
+			<item content="share folder" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-30 11:20:32" IsFile="false">
+				<item content="mount -t vboxsf [-o OPTIONS] sharename mountpoint" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-30 11:20:34" IsFile="false"/>
+			</item>
+		</item>
+		<item content="Machine J32X" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:29:24" IsFile="false">
+			<item content="dell" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:29:49" IsFile="false">
+				<item content="192.168.1.221:123456" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:30:18" IsFile="false"/>
+			</item>
+			<item content="ubuntu 13.10" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:30:37" IsFile="false">
+				<item content="Serial Port" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:42:29" IsFile="false">
+					<item content="screen -S default_session -p 0 -X stuff &quot;your command goes here... $(printf \\r)" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-29 13:29:09" IsFile="false"/>
+					<item content="sudo screen /dev/ttyS0 115200,cs8,parenb,-parodd,-cstopb" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:58:06" IsFile="false"/>
+					<item content="set tty" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:47:11" IsFile="false">
+						<item content="stty  -a  " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="ffffff00" BkgrdColor="4f81bd00" ModifyTime="2015-10-16 15:47:39" IsFile="false"/>
+					</item>
+					<item content="read hex date" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-16 15:42:40" IsFile="false">
+						<item content="ln -s output  /dev/ttyS0  &#xA;xxd output   " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="ffffff00" BkgrdColor="4f81bd00" ModifyTime="2015-10-16 15:47:55" IsFile="false"/>
+					</item>
+					<item content="screen help" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-08 15:31:22" IsFile="false">
+						<item content="Ctrl-a ?" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-08 15:32:23" IsFile="false"/>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item content="input Key responding slowly" icon="warning" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 09:01:18" IsFile="false">
+			<item content="Process running what time " icon="question" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 09:02:01" IsFile="false">
+				<item content="busybox top" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 13:55:50" IsFile="false"/>
+				<item content="ps H -e -o pid,tid,pcpu,cmd --sort=pcpu |grep xxx" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-14 15:12:14" IsFile="false"/>
+			</item>
+			<item content="Qt  time" icon="question" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 15:05:11" IsFile="false">
+				<item content="Qtime.start()  elapsed()" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-13 15:06:19" IsFile="false"/>
+			</item>
+		</item>
+		<item content="iptable Nat" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:11:15" IsFile="false">
+			<item content="eth0 is Nat dev" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:09:40" IsFile="false"/>
+			<item content="192.168.1.0/24 is private net " icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:10:59" IsFile="false"/>
+			<item content="iptables -P INPUT ACCEPT&#xA;iptables -P FORWARD ACCEPT&#xA;iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o eth0 -jMASQUERADE" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-23 12:15:39" IsFile="false"/>
+		</item>
+		<item content="zmq" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:30:31" IsFile="false">
+			<item content="install pyzmq on J32X" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:16:11" IsFile="false">
+				<item content="build on temp of folder" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:17:11" IsFile="false"/>
+				<item content="Ver 14.7" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:22:06" IsFile="false">
+					<item content="https://github.com/zeromq/pyzmq/tree/v14.7.0" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:22:09" IsFile="false"/>
+				</item>
+				<item content="Issue" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:22:58" IsFile="false">
+					<item content="Change libsodium that fetch url" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-03 09:24:14" IsFile="false"/>
+				</item>
+			</item>
+			<item content="ubuntu setting" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:30:58" IsFile="false">
+				<item content="" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" IsFile="false"/>
+				<item content="url" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:31:35" IsFile="false">
+					<item content="http://suntus.github.io/2014/10/02/ubuntu%E9%85%8D%E7%BD%AEzeromq/" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-02 13:31:24" IsFile="false"/>
+				</item>
+			</item>
+		</item>
+		<item content="Issue" icon="warning" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:31:48" IsFile="false">
+			<item content="ubifs_recover_master_node: failed to recover master node" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:32:00" IsFile="false">
+				<item content="rootfs on RAM" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 10:58:59" IsFile="false">
+					<item content="cramfs 制作" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 10:19:21" IsFile="false">
+						<item content="fakeroot mkcramfs ./rootfs cramfs.bin" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 13:22:14" IsFile="false"/>
+					</item>
+					<item content="TestCase" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 15:40:55" IsFile="false">
+						<item content="testfs-1201.bin" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 15:41:12" IsFile="false">
+							<item content="6196" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 15:41:27" IsFile="false"/>
+						</item>
+						<item content="target machine" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 16:42:20" IsFile="false">
+							<item content="bad block" icon="none" branch="close" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 16:43:44" IsFile="false">
+								<item content="1004, 1147, 1850" icon="none" branch="none" block="narrow" level="7" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 16:44:07" IsFile="false"/>
+							</item>
+							<item content="app used 18976" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 16:44:40" IsFile="false"/>
+							<item content="root used 30208" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 16:45:06" IsFile="false"/>
+							<item content="start 2015-12-01" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 16:45:56" IsFile="false"/>
+						</item>
+					</item>
+					<item content="启动配置" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 10:30:50" IsFile="false">
+						<item content="nand 位置" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 10:31:26" IsFile="false">
+							<item content="0x1000000 - 0x2000000 16MB" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 10:32:03" IsFile="false"/>
+						</item>
+						<item content="root=/dev/mtdblock1 rootfstype=cramfs" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 10:34:00" IsFile="false"/>
+						<item content="setenv bootargs &quot;console=ttyS0,115200 rootfstype=cramfs root=/dev/mtdblock1&quot;" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 10:44:00" IsFile="false"/>
+						<item content="nand erase 0x1000000 0x1000000;  nand write 0x22000000 0x1000000 0xE00000" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-01 14:52:52" IsFile="false"/>
+					</item>
+				</item>
+				<item content="增加 admin 权限" icon="flag" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-27 10:54:01" IsFile="false">
+					<item content="su admin -c &quot;appd&quot;" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-27 10:54:15" IsFile="false"/>
+				</item>
+				<item content="监控文件系统" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 11:01:02" IsFile="false"/>
+			</item>
+			<item content="Safety model" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-09 15:31:19" IsFile="false">
+				<item content="update target " icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-11-09 15:31:47" IsFile="false"/>
+			</item>
+			<item content="ubifs Arch" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:13:44" IsFile="false">
+				<item content="Word" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:14:35" IsFile="false">
+					<item content="MTD" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:15:25" IsFile="false"/>
+					<item content="UBI subsystem" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:18:13" IsFile="false">
+						<item content="wear-leveling" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:18:52" IsFile="false"/>
+						<item content="volume management" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:20:05" IsFile="false"/>
+						<item content="bad block management" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:21:03" IsFile="false"/>
+					</item>
+					<item content="UBIFS" icon="none" branch="open" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:18:19" IsFile="false">
+						<item content="可扩展性" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:24:15" IsFile="false"/>
+						<item content="快速mount" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:24:32" IsFile="false"/>
+						<item content="write-back" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:24:50" IsFile="false"/>
+						<item content="可恢复性" icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:25:54" IsFile="false">
+							<item content=" UBIFS中的每一片信息都用一个header来描述，因此可以通过扫描整个flash介质来重构文件系统 &#xA;http://blog.csdn.net/kickxxx/article/details/6583463" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:30:26" IsFile="false"/>
+						</item>
+						<item content="完整性 " icon="none" branch="close" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:31:08" IsFile="false">
+							<item content="UBIFS通过把checksum写到flash 介质上来保证数据的完整性，UBIFS不会无视损坏的文件数据或meta-data；缺省的情况，UBIFS仅仅检查meta-data的CRC，但是你可以通过mount选项，强制进行data CRC的检查。 " icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-10-26 15:31:55" IsFile="false"/>
+						</item>
+					</item>
+				</item>
+			</item>
+		</item>
+		<item content="info process" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:21:55" IsFile="false">
+			<item content="Event life cycle" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:17:55" IsFile="false">
+				<item content="event generation" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:19:40" IsFile="false"/>
+				<item content="device context" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:18:27" IsFile="false"/>
+				<item content="event class mapping" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:19:34" IsFile="false"/>
+				<item content="event context" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:19:16" IsFile="false"/>
+				<item content="event transform" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:19:29" IsFile="false"/>
+				<item content="Database insertion" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:20:48" IsFile="false"/>
+				<item content="Resolution" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:20:58" IsFile="false"/>
+				<item content="ageing" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:21:05" IsFile="false"/>
+			</item>
+			<item content="events database" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:22:13" IsFile="false">
+				<item content="summary for active events" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:22:31" IsFile="false"/>
+				<item content="history for closed events" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:22:52" IsFile="false"/>
+			</item>
+			<item content="Severity" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:29:51" IsFile="false">
+				<item content="Critical" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:00" IsFile="false"/>
+				<item content="Error" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:07" IsFile="false"/>
+				<item content="Warning" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:17" IsFile="false"/>
+				<item content="Info" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:20" IsFile="false"/>
+				<item content="Debug" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:24" IsFile="false"/>
+				<item content="Clear" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:32" IsFile="false"/>
+			</item>
+			<item content="Status" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:46" IsFile="false">
+				<item content="New" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:30:50" IsFile="false"/>
+				<item content="Ack" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:31:01" IsFile="false"/>
+				<item content="Suppressed" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:31:15" IsFile="false"/>
+				<item content="Closed" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:31:25" IsFile="false"/>
+				<item content="Cleared" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:31:42" IsFile="false"/>
+				<item content="Dropped" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:31:46" IsFile="false"/>
+				<item content="Aged" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-02 12:31:57" IsFile="false"/>
+			</item>
+		</item>
+	</item>
+	<item content="N6000" icon="flag" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-23 16:22:48" IsFile="false">
+		<item content="Power" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-23 16:23:29" IsFile="false">
+			<item content="主电故障" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-23 16:24:19" IsFile="false"/>
+			<item content="备电故障" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-23 16:24:38" IsFile="false"/>
+			<item content="通信故障" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-23 16:25:10" IsFile="false"/>
+			<item content="接地故障" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-23 16:25:24" IsFile="false"/>
+		</item>
+		<item content="loop" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-06 10:00:57" IsFile="false"/>
+		<item content="LPC2368" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 14:19:27" IsFile="false">
+			<item content="Clock" icon="none" branch="open" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 13:50:54" IsFile="false">
+				<item content="mainOSC 12MHz" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 13:51:15" IsFile="false"/>
+				<item content="Fcco 288MHz (M=11, N=0)" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 14:06:18" IsFile="false"/>
+				<item content="Fcclk 72MHz (Fcco/4)" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 14:05:28" IsFile="false"/>
+				<item content="Fpclk 18MHz (Fcclk/4)" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 14:05:48" IsFile="false"/>
+			</item>
+			<item content="LED1" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 14:29:04" IsFile="false">
+				<item content="P3[24]" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 14:29:37" IsFile="false"/>
+				<item content="PinSel7[16:17] = 0" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 14:33:34" IsFile="false"/>
+				<item content="FIO3MASK3" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 15:36:06" IsFile="false"/>
+				<item content="FIO3DIR3" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 15:36:08" IsFile="false"/>
+				<item content="FIO3SET3" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-15 15:36:08" IsFile="false"/>
+			</item>
+			<item content="Serial" icon="none" branch="close" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 10:15:02" IsFile="false">
+				<item content="PCONP" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 10:15:12" IsFile="false"/>
+				<item content="PCLK_SEL1" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 10:15:52" IsFile="false"/>
+				<item content="U2LCR" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 10:16:44" IsFile="false"/>
+				<item content="U2FCR" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 10:17:07" IsFile="false"/>
+				<item content="PINSEL" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-16 10:17:33" IsFile="false"/>
+			</item>
+		</item>
+		<item content="FreeRt" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-14 11:50:46" IsFile="false">
+			<item content="Config" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-14 11:50:54" IsFile="false"/>
+			<item content="Task" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-14 11:51:00" IsFile="false"/>
+			<item content="Queue" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-14 11:51:18" IsFile="false"/>
+			<item content="Software Timers" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-14 11:51:34" IsFile="false"/>
+			<item content="Event Groups" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-14 11:51:48" IsFile="false"/>
+		</item>
+		<item content="spiffs" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 11:47:53" IsFile="false"/>
+		<item content="TestCase" icon="none" branch="open" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-06 10:08:46" IsFile="false">
+			<item content="104" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 08:33:57" IsFile="false">
+				<item content="conn1-7" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 08:36:26" IsFile="false"/>
+			</item>
+			<item content="105" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 08:34:44" IsFile="false">
+				<item content="rime" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 08:37:37" IsFile="false"/>
+			</item>
+			<item content="106" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 08:34:49" IsFile="false">
+				<item content="lpc2290" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 08:42:52" IsFile="false"/>
+			</item>
+			<item content="107" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 12:33:25" IsFile="false">
+				<item content="lpc2138" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:49:58" IsFile="false">
+					<item content="LED" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:50:18" IsFile="false">
+						<item content="Normal" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:51:47" IsFile="false">
+							<item content="P0.5" icon="none" branch="none" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:52:09" IsFile="false"/>
+						</item>
+					</item>
+					<item content="PID" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:53:59" IsFile="false">
+						<item content="P1_16-23" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:54:19" IsFile="false"/>
+					</item>
+				</item>
+				<item content="ucGUI" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:12:18" IsFile="false">
+					<item content="LCD driver " icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:12:30" IsFile="false">
+						<item content="ship Epson SED1330" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 13:10:41" IsFile="false"/>
+						<item content="EMC" icon="none" branch="open" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 12:37:36" IsFile="false">
+							<item content="Bank3" icon="none" branch="close" block="narrow" level="6" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 12:37:48" IsFile="false">
+								<item content="Memory 0x83000000" icon="none" branch="none" block="narrow" level="7" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 12:34:35" IsFile="false"/>
+							</item>
+						</item>
+					</item>
+				</item>
+				<item content="ISP" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-07 14:05:22" IsFile="false"/>
+				<item content="Ubuntu 1510" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-08 13:47:45" IsFile="false"/>
+			</item>
+			<item content="113" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-13 11:05:53" IsFile="false">
+				<item content="ARM7 interrupt process" icon="none" branch="close" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-13 11:06:10" IsFile="false">
+					<item content="Nesting" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-13 11:06:39" IsFile="false"/>
+				</item>
+			</item>
+			<item content="115" icon="none" branch="close" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-15 09:47:31" IsFile="false">
+				<item content="u1510 wiith jlink(5.10g)" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-15 13:16:10" IsFile="false"/>
+				<item content="mono u1510" icon="none" branch="none" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-15 13:16:32" IsFile="false"/>
+				<item content="TzForFreeOS" icon="none" branch="open" block="narrow" level="3" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-15 13:17:59" IsFile="false">
+					<item content="jlink RTT " icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-15 13:18:35" IsFile="false"/>
+				</item>
+			</item>
+			<item content="120" icon="none" branch="open" block="narrow" level="2" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 08:57:40" IsFile="false">
+				<item content="Gcc function for ISR" icon="none" branch="open" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 15:03:57" IsFile="false">
+					<item content="void fux_wrap(void)  __attribute__ ((naked));" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 15:03:38" IsFile="false"/>
+					<item content="void fux_handler(void) __attribute__((naked));" icon="none" branch="none" block="narrow" level="4" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 15:03:23" IsFile="false"/>
+				</item>
+				<item content="Linux GDB" icon="none" branch="close" block="narrow" level="3" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 09:06:41" IsFile="false">
+					<item content="查看宏定义" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 12:42:31" IsFile="false">
+						<item content="gcc -gdwarf-2 -g3 " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 12:44:32" IsFile="false"/>
+						<item content="macro expand macro_name" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 12:45:48" IsFile="false"/>
+					</item>
+					<item content="bt" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 08:57:46" IsFile="false"/>
+					<item content="frame" icon="none" branch="none" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 08:58:00" IsFile="false"/>
+					<item content="until+linenum" icon="none" branch="none" block="shrink" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 08:59:33" IsFile="false"/>
+					<item content="finish" icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 08:59:42" IsFile="false">
+						<item content="until currect end of function " icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 09:01:07" IsFile="false"/>
+					</item>
+					<item content="call " icon="none" branch="close" block="narrow" level="4" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 08:59:58" IsFile="false">
+						<item content="call func(param)" icon="none" branch="none" block="narrow" level="5" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2016-01-20 09:00:23" IsFile="false"/>
+					</item>
+				</item>
+			</item>
+		</item>
+	</item>
+	<item content="Nodemcu" icon="none" branch="open" block="narrow" level="0" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 09:14:27" IsFile="false">
+		<item content="ref" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 09:17:02" IsFile="false">
+			<item content="http://blog.woshifengzi.com/2015/11/04/nodemcu_basic" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 09:17:05" IsFile="false"/>
+		</item>
+		<item content="Silicon Valley" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 09:41:13" IsFile="false"/>
+		<item content="yeelink" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 10:13:48" IsFile="false"/>
+		<item content="CoAP" icon="none" branch="none" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 14:35:44" IsFile="false"/>
+		<item content="platform_spi_setup" icon="none" branch="close" block="narrow" level="1" IsShown="true" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 14:48:55" IsFile="false">
+			<item content="spi_master_init" icon="none" branch="none" block="narrow" level="2" IsShown="false" IsBold="false" ShowBranch="false" TextColor="00000000" BkgrdColor="ffffff00" ModifyTime="2015-12-09 14:49:34" IsFile="false"/>
 		</item>
 	</item>
 </root>
